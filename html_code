@@ -1,1 +1,417 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>HOLIDAY</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="main.css">
+        <script src="https://kit.fontawesome.com/dbed6b6114.js" crossorigin="anonymous"></script>
+        <link rel = "icon" href = "images/logo.png" type = "images/png">
+    </head>
+    <body>
+        
+        <!-- header -->
+        <header class = "header" id = "header">
+            <div class = "head-top">
+                <div class = "site-name">
+                    <span>GOODHOLIDAY</span>
+                </div>
+                <div class = "site-nav">
+                    <span id = "nav-btn">MENU <i class = "fas fa-bars"></i></span>
+                </div>
+            </div>
 
+            <div class = "head-bottom flex">
+                <h2>HOW ABOUT A GREAT HOLIDAY WITH US?</h2>
+                <p>Enjoy a peaceful holiday. Stylish and luxurious rooms, a deep blue sea with a blue flag and unlimited entertainment....</p>
+                <button type = "button" class = "head-btn">LET STARTED</button>
+            </div>
+        </header>
+        <!-- end of header -->
+
+        <!-- side navbar -->
+        <div class = "sidenav" id = "sidenav">
+            <span class = "cancel-btn" id = "cancel-btn">
+                <i class = "fas fa-times"></i>
+            </span>
+
+            <ul class = "navbar">
+                <li><a href = "#header">home</a></li>
+                <li><a href = "#services">services</a></li>
+                <li><a href = "#rooms">rooms</a></li>
+                <li><a href = "#customers">customers</a></li>
+            </ul>
+            <button class = "btn sign-up">sign up</button>
+            <button class = "btn log-in">log in</button>
+        </div>
+        <!-- end of side navbar -->
+
+        <!-- fullscreen modal -->
+        <div id = "modal"></div>
+        <!-- end of fullscreen modal -->
+
+        <!-- body content  -->
+        <section class = "services sec-width" id = "services">
+            <div class = "title">
+                <h2>services</h2>
+            </div>
+            <div class = "services-container">
+                <!-- single service -->
+                <article class = "service">
+                    <div class = "service-icon">
+                        <span>
+                            <i class = "fas fa-utensils"></i>
+                        </span>
+                    </div>
+                    <div class = "service-content">
+                        <h2>Food Service/ Food Runner</h2>
+                        <p>Eating and drinking
+                            For All Inclusive accommodations, breakfast, lunch, dinner and night open buffet meals are free of charge. Some local and imported alcoholic and non-alcoholic beverages, within the brands determined by the facility, are free of charge at certain bars 24 hours a day. The mini bar is filled with soft drinks on the day of arrival. It is renewed daily, the second renewal is charged extra. Tetra park packaged fruit juices and refills are free of charge.
+                            
+                            The facility provides free tea, fresh coffee, herbal tea, tetrapark fruit juice, ayran, soda and water for breakfast and dinner, within the brands specified by the facility.
+                            
+                            Bars:<br> 
+                            Nyssa Bar (Paid)<br> 
+                            The Legends Pub (Paid) <br> 
+                            Service Hours<br>                            
+                            07.00-10.30 Breakfast (Weekdays - Eternia Main Restaurant Open Buffet) <br>
+                            07.00-11.00 Breakfast (Weekend - Eternia Main Restaurant Open Buffet) <br>
+                            12.30-14.30 Lunch (Eternia Main Restaurant Open Buffet) <br>
+                            18.30-21.00 Dinner (Eternia Main Restaurant Open Buffet)</p>
+                        <button type = "button" class = "btn">Know More</button>
+                    </div>
+                </article>
+                <!-- end of single service -->
+                <!-- single service -->
+                <article class = "service">
+                    <div class = "service-icon">
+                        <span>
+                            <i class = "fas fa-swimming-pool"></i>
+                        </span>
+                    </div>
+                    <div class = "service-content">
+                        <h2>Refreshment</h2>
+                        <p>Located at the seafront, the hotel has a wooden pier and a 300 m long sandy beach. At the beach; Sun umbrellas, towels and sun loungers are free. Pavilions on the pier and the beach are paid.</p>
+                        <button type = "button" class = "btn">Know More</button>
+                    </div>
+                </article>
+                <!-- end of single service -->
+                <!-- single service -->
+                <article class = "service">
+                    <div class = "service-icon">
+                        <span>
+                            <i class = "fas fa-broom"></i>
+                        </span>
+                    </div>
+                    <div class = "service-content">
+                        <h2>Housekeeping</h2>
+                        <p>Your rooms are meticulously cleaned daily. Your towels are changed daily. Linens are changed every two days.</p>
+                        <button type = "button" class = "btn">Know More</button>
+                    </div>
+                </article>
+                <!-- end of single service -->
+                <!-- single service -->
+                <article class = "service">
+                    <div class = "service-icon">
+                        <span>
+                            <i class = "fas fa-door-closed"></i>
+                        </span>
+                    </div>
+                    <div class = "service-content">
+                        <h2>Room Security</h2>
+                        <p>Each rooms has a digital safe for your valuables. The entire hotels is monitored by cameras 24/7.</p>
+                        <button type = "button" class = "btn">Know More</button>
+                    </div>
+                </article>
+                <!-- end of single service -->
+            </div>
+        </section>
+
+        <div class = "book">
+            <form class = "book-form">
+                <div class = "form-item">
+                    <label for = "checkin-date">Check In Date: </label>
+                    <input type = "date" id = "chekin-date">
+                </div>
+                <div class = "form-item">
+                    <label for = "checkout-date">Check Out Date: </label>
+                    <input type = "date" id = "chekout-date">
+                </div>
+                <div class = "form-item">
+                    <label for = "adult">Adults: </label>
+                    <input type = "number" min = "1" value = "1" id = "adult">
+                </div>
+                <div class = "form-item">
+                    <label for = "children">Children: </label>
+                    <input type = "number" min = "1" value = "1" id = "children">
+                </div>
+                <div class = "form-item">
+                    <label for = "rooms">Rooms: </label>
+                    <input type = "number" min = "1" value = "1" id = "rooms">
+                </div>
+                <div class = "form-item">
+                    <input type = "submit" class = "btn" value = "Book Now">
+                </div>
+            </form>
+        </div>
+
+        <br>
+        
+       
+        <center>
+            <div class = "title">
+            <h5>Grand Hotel Timeo</h5>
+            </div>
+        </center>
+        <div class = "room-container">
+        <!-- 1.hotel -->
+        <article class = "room">
+        <div class = "room-image">
+            <img src = "images/img6.jpg" alt = "room image">
+        </div>
+        <div class = "room-text">
+            <h3>About the Hotel</h3>
+    <ul>
+        <li>
+           <i class = "fas fa-arrow-alt-circle-right"></i>
+                Our hotel was founded in 1873. There are a total of 83 rooms in the hotel, and the rooms have sea and Yanardağ views.                                
+        </li>
+        <li>
+            <i class = "fas fa-arrow-alt-circle-right"></i>
+                Nestled in the shadows of Mt Etna is one of Italy’s finest spots
+        </li>
+        <li>
+            <i class = "fas fa-arrow-alt-circle-right"></i>
+                Remnants of ancient civilisations stand proudly alongside chic residences.
+        </li>
+    </ul>
+    <p>The endlessly stunning landscape creates a heady sense of joy wherever you look. You’ll notice a peaceful exuberance here, checked only by the sheer drama of Europe’s largest volcano looming in the distance. Above the town, the ancient Greeks left a fitting tribute to the dramatic views—a grand amphitheatre. Enjoying the same perspective just steps away is Grand Hotel Timeo, our stunning luxury hotel.</p>
+    <p class = "rate">
+        <span>€1100 /</span> Per Night
+        
+    </p>
+        <button type = "button" class = "btn">Click For Reservation</button>                        
+        </div>
+        </article>
+        <!-- end of 1.hotel -->
+        <!-- start to 2.hotel -->
+        <br> 
+        <hr>
+        <br>
+    
+        <center>
+            <div class = "title">
+            <h5>The St. Regis Rome </h5>
+            </div>
+        </center>
+        <div class = "room-container">
+        <!-- 2.hotel -->
+        <article class = "room">
+        <div class = "room-image">
+            <img src = "images/img7.jpg" alt = "room image">
+        </div>
+        <div class = "room-text">
+            <h3>About the Hotel</h3>
+    <ul>
+        <li>
+           <i class = "fas fa-arrow-alt-circle-right"></i>
+                Our hotel was founded in 1894. The hotel has a total of 161 rooms and is located in a central location.                                
+        </li>
+        <li>
+            <i class = "fas fa-arrow-alt-circle-right"></i>
+                The hotel was named Rome's Best Luxury Hotel by Questex's Luxury Travel Advisor and Best Hotel in Rome's "Award of Excellence 2023" by Travel + Leisure World's Best Award 2023.
+        </li>
+        <li>
+            <i class = "fas fa-arrow-alt-circle-right"></i>
+                The St. Regis Rome offers accommodation in the center of Rome, a 5-minute drive from the Spanish Steps and the Colosseum. This luxury hotel is 2.3 km from the Trevi Fountain and 2.5 km from the Pantheon.
+        </li>
+    </ul>
+    <p>Introduced to Rome society in 1894, the architecturally iconic St. Regis Rome is a historic hotel located in one of the city’s most impressive palazzos. The pioneer St. Regis in Europe and a social beacon for Romans and international travelers, our 5 star hotel has emerged to define a new era of luminosity. Blending a noble heritage with fearless, elegant interiors has transformed this grand dame into a supremely luxurious and artful residence. High-ceilinged and light-filled, the guestrooms and suites are styled with luxurious Rubelli fabrics, handmade glass and collectable curios – effortlessly sophisticated and distinctively urbane. A contemporary take on a historic address, our luxury hotel has shed its former bearing and stepped out, into the limelight to truly own Rome. Radiant and luminous, it combines fearless elegance, disruptive artistry and discerning enlightenment. Worried about leaving your furry friends behind? Bring them along! Our hotel is pet friendly and welcomes trained pets.</p>
+    <p class = "rate">
+        <span>€1380 /</span> Per Night  
+    </p>
+        <button type = "button" class = "btn">Click For Reservation</button>                        
+        </div>
+        </article>
+        <!-- end of 2.hotel -->
+        <!-- start to 3.hotel -->
+        <br> 
+        <hr>
+        <br>
+        
+        <center>
+            <div class = "title">
+            <h5>Belmond Hotel Caruso</h5>
+            </div>
+        </center>
+        <div class = "room-container">
+        <!-- 3.hotel -->
+        <article class = "room">
+        <div class = "room-image">
+            <img src = "images/img8.jpeg" alt = "room image">
+        </div>
+        <div class = "room-text">
+            <h3>About the Hotel</h3>
+    <ul>
+        <li>
+           <i class = "fas fa-arrow-alt-circle-right"></i>
+                Be part of something special with a stay in this 11th-century hotel, built by a wealthy family who found sanctuary in Ravello while journeying to Constantinople.                                
+        </li>
+        <li>
+            <i class = "fas fa-arrow-alt-circle-right"></i>
+                Stroll through the century-old gardens, with rose bushes climbing skyward and crops of aromatic herbs found at every turn. Explore the frescoed salons and arched stone vaults, before arriving for a dip in the striking infinity pool. It’s a swim you’ll never forget.
+        </li>
+        <li>
+            <i class = "fas fa-arrow-alt-circle-right"></i>
+                This wonderful hotel has a total of 50 rooms and is surrounded by nature..
+        </li>
+    </ul>
+    <p>Arriving in Ravello is a treat in itself. One of Europe’s most scenic roads curves, loops and dives the full length of the coastline, passing the glamorous resorts of Sorrento, Positano and Amalfi. For centuries, this region has attracted the rich and famous, but nowhere more so than Ravello. Perched 350 metres above the sea, Ravello commands the greatest panorama of all.
+
+        Grand Roman villas, ancient watchtowers and pretty residences spill lazily down towering hillsides towards the bay. Clear blue waters lull out to sea and the warm air carries the scent of lemons, olive groves and fragrant cypresses.
+        
+        Make your base high among the heavens at Caruso. Our Amalfi Coast hotel is steeped in history, uninterrupted coastal views and the kind of laid-back luxury Italy is famous for. You’ll find it’s the perfect place from which to explore Ravello, Amalfi Coast, Positano and beyond.</p>
+    <p class = "rate">
+        <span>€1000 /</span> Per Night
+    </p>
+        <button type = "button" class = "btn">Click For Reservation</button>                        
+        </div>
+        </article>
+        <!-- end of 3.hotel -->
+        <br> 
+        <hr>
+        <br>        
+               
+
+    <center>
+        <div>
+            <iframe src="https://www.google.com/maps/d/embed?mid=1cxF1KIt4iXEHFxiZwyqHdTV4-7o_mZQ&ehbc=2E312F" width="1800" height="700"></iframe>
+        </div>
+    </center>
+
+
+        <section class = "customers" id = "customers">
+            <div class = "sec-width">
+                <div class = "title">
+                    <h2>customers</h2>
+                </div>
+                <div class = "customers-container">
+                    <!-- single customer -->
+                    <div class = "customer">
+                        <div class = "rating">
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "far fa-star"></i></span>
+                        </div>
+                        <h3>We Loved it</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat beatae veritatis provident eveniet praesentium veniam cum iusto distinctio esse, vero est autem, eius optio cupiditate?</p>
+                        <img src = "images/cus1.jpg" alt = "customer image">
+                        <span>Customer Name, Country</span>
+                    </div>
+                    <!-- end of single customer -->
+                    <!-- single customer -->
+                    <div class = "customer">
+                        <div class = "rating">
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "far fa-star"></i></span>
+                        </div>
+                        <h3>Comfortable Living</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat beatae veritatis provident eveniet praesentium veniam cum iusto distinctio esse, vero est autem, eius optio cupiditate?</p>
+                        <img src = "images/cus2.jpg" alt = "customer image">
+                        <span>Customer Name, Country</span>
+                    </div>
+                    <!-- end of single customer -->
+                    <!-- single customer -->
+                    <div class = "customer">
+                        <div class = "rating">
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "far fa-star"></i></span>
+                        </div>
+                        <h3>Nice Place</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat beatae veritatis provident eveniet praesentium veniam cum iusto distinctio esse, vero est autem, eius optio cupiditate?</p>
+                        <img src = "images/cus3.jpg" alt = "customer image">
+                        <span>Customer Name, Country</span>
+                    </div>
+                    <!-- end of single customer -->
+                </div>
+            </div>
+        </section>
+        <!-- end of body content -->
+        
+        <!-- footer -->
+        <footer class = "footer">
+            <div class = "footer-container">
+                <div>
+                    <h2>About Us </h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque sapiente mollitia doloribus provident? Eos quisquam aliquid vel dolorum, impedit culpa.</p>
+                    <ul class = "social-icons">
+                        <li class = "flex">
+                            <i class = "fa fa-twitter fa-2x"></i>
+                        </li>
+                        <li class = "flex">
+                            <i class = "fa fa-facebook fa-2x"></i>
+                        </li>
+                        <li class = "flex">
+                            <i class = "fa fa-instagram fa-2x"></i>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h2>Useful Links</h2>
+                    <a href = "#">Blog</a>
+                    <a href = "#">Rooms</a>
+                    <a href = "#">Subscription</a>
+                    <a href = "#">Gift Card</a>
+                </div>
+
+                <div>
+                    <h2>Privacy</h2>
+                    <a href = "#">Career</a>
+                    <a href = "#">About Us</a>
+                    <a href = "#">Contact Us</a>
+                    <a href = "#">Services</a>
+                </div>
+
+                <div>
+                    <h2>Have A Question</h2>
+                    <div class = "contact-item">
+                        <span>
+                            <i class = "fas fa-map-marker-alt"></i>
+                        </span>
+                        <span>
+                            ITALIA
+                        </span>
+                    </div>
+                    <div class = "contact-item">
+                        <span>
+                            <i class = "fas fa-phone-alt"></i>
+                        </span>
+                        <span>
+                            +39 850 500 00 00
+                        </span>
+                    </div>
+                    <div class = "contact-item">
+                        <span>
+                            <i class = "fas fa-envelope"></i>
+                        </span>
+                        <span>
+                            cevik06tb@gmail.com
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- end of footer -->
+        
+        <script src="script.js"></script>
+    </body>
+</html>
