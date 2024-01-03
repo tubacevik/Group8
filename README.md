@@ -11,7 +11,7 @@
 
 For this project, we decided to first create a reservation site for 3 hotels in Italy. The hotels we used in our project are GRAND HOTEL TIMEO, THE ST. REGIS ROME and BELMOND HOTEL CARUSO.
 
-#Used programs
+# Used programs
 
 We got the information about these hotels from their websites. We used Visual Studio Code, HTML, CSS and JavaScript to design the project. We created our codes in the "index.html" file via Visual Studio Code.
 
