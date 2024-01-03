@@ -9,7 +9,7 @@
 
 # FINAL PROJECT SPRING 2023/24
 
-For this project, we decided to first create a reservation site for 3 hotels in Italy. The hotels we used in our project are GRAND HOTEL TIMEO, THE ST. REGIS ROME and BELMOND HOTEL CARUSO.
+For this project, we decided to first create a reservation site for 3 hotels in Italy. The hotels we used in our project are "GRAND HOTEL TIMEO", "THE ST. REGIS ROME" and "BELMOND HOTEL CARUSO".
 
 # Used programs
 
